@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+
+.Barra {
+
+  
+  background-color: #39729e;
+  
+  color: white;
+
+}
+
+
+.menu li a {
+	color: white;
+	text-decoration: none;
+	font-size: 100%;
+	
+
+	font-family: 'Shrikhand', cursive;
+}
+
+
+
+
+///responsive
+
+.Barra{
+	width: 100%;
+}
+
+#btn-menu{
+	display: none;
+}
+
+
+.Barra label{
+
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #fff;
+}
+
+.Barra:hover{
+	cursor: pointer;
+	background: rgba(1,0,0.5,0.3);
+}
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.menu li {
+	flex-grow: 1;
+}
+
+.menu li a {
+	width: 100%;
+}
+
+.menu li:hover {
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li {
+	display: block;
+	padding: 15px 20px;
+}
+
+@media (max-width:768px) {
+
+	.Barra label{
+		display: block;
+	}
+
+	.menu ul {
+		position: absolute;
+		background: #39729e;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+
+	.menu ul {
+
+		flex-direction: column;
+
+	}
+
+	.menu li {
+		border-top: 1px solid #fff;
+	}
+
+	#btn-menu:checked ~ .menu ul{
+		margin: 0;
+	} 
+
+	
+}
+

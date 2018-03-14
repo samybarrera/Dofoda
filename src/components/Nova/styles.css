@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.Home{
+	  width: 100%;
+	  background-color: #fff;
+	  display: inline-block;
+}
+
+.list-uno {
+	
+	display: inline-block;
+	margin: 1 rem 0 auto;
+	background-color: #000;
+	color:#fff;
+	border-radius: 30px;
+	width: 40%;
+	position: relative;
+    margin-left: 43px;
+
+	
+	
+
+}
+
+.list-dos {
+	
+	display: inline-block;
+	margin: 1 rem 0 auto;
+	background-color: #000;
+	color:#fff;
+	border-radius: 30px;
+	width: 40%;
+	position: relative;
+	bottom: 100px;
+	padding-left: 15px;
+    margin-left: 43px;
+
+	
+	
+
+}
+
+ul {
+
+	margin-top: 14px;
+	margin-left: 5px;
+}
+
+ul.ulist-uno li {
+	width: 50%;
+	margin-left: 18px;
+	display: inline-block;
+
+}
+
+ul.ulist-uno li a {
+	font-family: 'Playfair Display', serif;
+}
+
+ul.ulist-dos li {
+	width: 50%;
+	margin-left: 18px;
+	display: inline-block;
+
+}
+
+ul.ulist-dos li a {
+	font-family: 'Playfair Display', serif;
+}
+
+
+
+input{
+	width: 80%;
+	
+}
