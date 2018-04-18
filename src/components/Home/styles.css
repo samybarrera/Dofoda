@@ -78,3 +78,79 @@ input{
 	width: 80%;
 	
 }
+
+
+.p1{
+	
+}
+
+.p2{
+	
+}
+
+.row{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+}
+
+.title {
+	font-family: 'Playfair Display', serif;
+	font-size: 7vh;
+
+}
+
+.cuadro1 {
+	background-color: #00DAFF;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro2 {
+	background-color: #00BEE8;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro3 {
+	background-color: #00C7FF;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro4 {
+	background-color: #07F5FF;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro5 {
+	background-color: #00D6E8;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro6 {
+	background-color: #0EE3FF;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro7 {
+	background-color: #2ECCE8;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+
+.cuadro8 {
+	background-color: #0AD0FF;
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+}
+

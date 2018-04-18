@@ -7,74 +7,32 @@
 .Rest{
 	  width: 100%;
 	  background-color: #fff;
-	  display: inline-block;
+	 
 }
 
-.list-uno {
+.img1 {
+	text-align: center;
+}
+
+.img2 {
+	text-align: center;
+}
+
+.img3 {
+	text-align: center;
+}
+
+.img4 {
+	text-align: center;
+}
+
+.img5 {
+	text-align: center;
+}
+
+.video, video{
+	margin: 0 auto;
 	
-	display: inline-block;
-	margin: 1 rem 0 auto;
-	background-color: #000;
-	color:#fff;
-	border-radius: 30px;
-	width: 40%;
-	position: relative;
-    margin-left: 43px;
-
-	
-	
-
-}
-
-.list-dos {
-	
-	display: inline-block;
-	margin: 1 rem 0 auto;
-	background-color: #000;
-	color:#fff;
-	border-radius: 30px;
-	width: 40%;
-	position: relative;
-	bottom: 100px;
-	padding-left: 15px;
-    margin-left: 43px;
-
-	
-	
-
-}
-
-ul {
-
-	margin-top: 14px;
-	margin-left: 5px;
-}
-
-ul.ulist-uno li {
-	width: 50%;
-	margin-left: 18px;
-	display: inline-block;
-
-}
-
-ul.ulist-uno li a {
-	font-family: 'Playfair Display', serif;
-}
-
-ul.ulist-dos li {
-	width: 50%;
-	margin-left: 18px;
-	display: inline-block;
-
-}
-
-ul.ulist-dos li a {
-	font-family: 'Playfair Display', serif;
-}
-
-
-
-input{
-	width: 80%;
-	
+	width: 700px;
+	height: 550px;
 }

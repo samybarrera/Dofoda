@@ -24,7 +24,43 @@ class Rest extends Component {
 				<div className="Rest">
 				
 
-					<h2>EJEMPLO DE FODA</h2>
+					<div className="container-fluid img1 ">
+					<img src="/images/foda2.jpg"/>
+
+
+					</div>
+
+					<div className="container img2 .d-sm-flex ">
+					<img src="/images/foda1.jpg"/>
+
+
+					</div>
+
+					<div className="container img3 .d-sm-flex ">
+					<img src="/images/foda3.png"/>
+
+
+					</div>
+
+					<div className="container img4 .d-sm-flex ">
+					<img src="/images/foda4.jpg"/>
+
+
+					</div>
+
+					<div className="container img5 .d-sm-flex ">
+					<img src="/images/foda5.png"/>
+
+
+					</div>
+
+					<div className="container video .d-sm-flex ">
+					<video controls preload>
+					<source src="/images/Qué es el análisis DAFO o FODA y cómo hacerlo - Curso de Marketing Digital.mp4" />
+					</video>
+
+
+					</div>
 
 				</div>
 			);
